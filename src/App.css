@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Cinzel:wght@400..900&family=Imperial+Script&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Mea+Culpa&family=Oswald:wght@200..700&family=Petit+Formal+Script&display=swap');
 .App {
   text-align: center;
 }
@@ -12,7 +13,24 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+#debutpicstext{
+  font-family: "Ballet", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#Bhrenttitlepage{
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
 
+#Bhrentfirsttitle{
+  font-family: "Imperial Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +52,119 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+#countdown {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem;
+  display: flex; 
+  justify-content: center;
+}
+
+.countdown-unit {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 60px;                 /* Adjust width */
+ height: 60px;                /* Adjust height for circle */
+ border-radius: 20%;           /* Circle shape */
+ 
+ background-color: #5d0102;      /* Background color for circle */
+ 
+  margin: 10px;
+  border-color: rgb(255, 255, 255);
+
+}
+
+#countdown-timer span {
+ font-size: 22px;
+ font-weight: bold;
+ color: #c1b56c;
+ display: flex; /* Make the timer a flex container */
+ justify-content: center; /* Center its children horizontally */
+}
+
+.label {
+ font-size: 10px;
+  font-weight: bold;
+ color: #c1b56c;
+}
+
+/* Add a container for fireflies */
+.homeintro {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Firefly animation */
+.firefly {
+  position: absolute;
+  background-color: rgba(255, 255, 204, 0.8); /* Soft yellow color for firefly */
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  animation: fly 10s linear infinite;
+  opacity: 0.8;
+}
+
+/* Random placement for each firefly */
+.firefly:nth-child(1) { top: 20%; left: 30%; animation-duration: 8s; }
+.firefly:nth-child(2) { top: 40%; left: 70%; animation-duration: 12s; }
+.firefly:nth-child(3) { top: 60%; left: 50%; animation-duration: 9s; }
+.firefly:nth-child(4) { top: 80%; left: 20%; animation-duration: 10s; }
+.firefly:nth-child(5) { top: 30%; left: 70%; animation-duration: 11s; }
+.firefly:nth-child(6) { top: 90%; left: 20%; animation-duration: 11s; }
+.firefly:nth-child(7) { top: 70%; left: 80%; animation-duration: 11s; }
+.firefly:nth-child(8) { top: 10%; left: 30%; animation-duration: 11s; }
+.firefly:nth-child(9) { top: 50%; left: 10%; animation-duration: 11s; }
+
+/* Keyframes for fly animation */
+@keyframes fly {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(100px, -100px);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translate(-100px, 100px);
+    opacity: 1;
+  }
+}
+
+#titlevideo{
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gold-text {
+  font-weight: bold;
+  background: linear-gradient(90deg, #ffd700, #ffecb3, #ffd700);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: goldShine 4s linear infinite;
+  line-height: 1.2; /* Adjust as needed */
+  overflow: visible; /* Prevents cropping */
+  white-space: nowrap; /* Ensures text is in one line */
+}
+
+
+@keyframes goldShine {
+  0% {
+    background-position: 0% 50%; /* Centered vertically */
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
