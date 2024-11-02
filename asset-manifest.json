@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bhrentdebut/static/css/main.063183db.css",
-    "main.js": "/bhrentdebut/static/js/main.084805d6.js",
+    "main.css": "/bhrentdebut/static/css/main.29b159f3.css",
+    "main.js": "/bhrentdebut/static/js/main.6644c309.js",
     "static/js/453.ce94cdb8.chunk.js": "/bhrentdebut/static/js/453.ce94cdb8.chunk.js",
     "static/media/18thvideo.mp4": "/bhrentdebut/static/media/18thvideo.321a2f7ae441947b8f34.mp4",
     "static/media/citylights.jpg": "/bhrentdebut/static/media/citylights.d2e814645ba61507e73c.jpg",
@@ -33,12 +33,12 @@
     "static/media/slick.ttf": "/bhrentdebut/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/bhrentdebut/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bhrentdebut/index.html",
-    "main.063183db.css.map": "/bhrentdebut/static/css/main.063183db.css.map",
-    "main.084805d6.js.map": "/bhrentdebut/static/js/main.084805d6.js.map",
+    "main.29b159f3.css.map": "/bhrentdebut/static/css/main.29b159f3.css.map",
+    "main.6644c309.js.map": "/bhrentdebut/static/js/main.6644c309.js.map",
     "453.ce94cdb8.chunk.js.map": "/bhrentdebut/static/js/453.ce94cdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.063183db.css",
-    "static/js/main.084805d6.js"
+    "static/css/main.29b159f3.css",
+    "static/js/main.6644c309.js"
   ]
 }
