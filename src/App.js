@@ -34,7 +34,7 @@ function App() {
 
     
   useEffect(() => {
-    const debutCountdown = new Date('Dec 10, 2024 08:00:00');
+    const debutCountdown = new Date('Dec 10, 2024 17:00:00');
     
     const updateCountdown = () => {
       const now = new Date();
@@ -63,7 +63,7 @@ function App() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     pauseOnHover: false,
     responsive: [
       {
@@ -114,7 +114,7 @@ function App() {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0 }}
               />
-              <motion.h1 className="text-8xl md:text-7xl text-[#c1b56c] mb-4" id='Bhrentfirsttitle' 
+              <motion.h1 className="text-8xl md:text-7xl text-center text-[#c1b56c] mb-4" id='Bhrentfirsttitle' 
                variants={fadein("up", 0.2)}
                initial="hidden"
                whileInView={"show"}
@@ -126,9 +126,12 @@ function App() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0 }}>
-                <li>You are invited!</li>
-                <li>Join us for a night to remember</li>
-                <li>Dress Code: Semi-formal/ Cocktail Attire</li>
+                <li className='flex justify-center'>You are invited!</li>
+                <li className='flex justify-center'>Join us for a night to remember</li>
+            
+                <li class="pt-4 text-center"><span class="font-bold">Dress Code:</span> Semi-formal/ Cocktail Attire</li>
+               <li className='text-center'><span className="font-bold ">Where:</span> Stalla Suites Events Place</li>
+               <li className='text-center'><span className="font-bold">Time:</span> 5:00 pm onwards</li>
               </motion.ul>
               <motion.table id='countdown' className='text-white'
                 variants={fadein("up", 0.2)}
@@ -176,29 +179,9 @@ function App() {
           </div>
         </section>
 
-        <section 
-          className="spotifyplaylist h-screen bg-cover bg-center bg-no-repeat md:h-max md:pt-4" 
-          id="spotifyplaylist"  
-          style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(${citylights})`,
-          }}
-        >
-          <div className="spotify">
-            <div className="iframe-container flex justify-center pt-7" id="embed-iframe">
-              <iframe
-                style={{ borderRadius: '12px' }}
-                src="https://open.spotify.com/embed/track/1fDFHXcykq4iw8Gg7s5hG9?utm_source=generator&autoplay=1"
-                width="340"
-                height="400"
-                allowFullScreen
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-            </div>
-          </div>
-        </section>
-        <section 
-  className="video-section h-screen md:w-screen md:h-screen flex items-center justify-center bg-[#140903] md:h-screen md:w-screen relative"
+        
+<section 
+  className="video-section relative h-screen md:w-screen md:h-screen flex items-center justify-center bg-[#140903] "
   style={{
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${bgbrown})`,
     backgroundSize: 'cover',
@@ -219,7 +202,7 @@ function App() {
 
   {/* Heading over the video */}
   <motion.h1
-  className="absolute top-1 mt-56 text-7xl md:text-7xl md:mt-44 mb-4 gold-text"
+  className="absolute top-1 mt-52 text-7xl md:text-7xl md:mt-28 mb-4 gold-text"
   id="Bhrenttitlepage"
   initial={{ opacity: 0, y: -50 }}
   whileInView={{ opacity: 1, y: 0 }}
@@ -229,7 +212,7 @@ function App() {
   Save The Date
 </motion.h1>
 <motion.h1
-  className="absolute bottom-1 mb-56 text-7xl md:text-7xl md:mb-44 mb-4 gold-text"
+  className="absolute bottom-1 mb-52 text-7xl md:text-7xl md:mb-28 mb-4 gold-text"
   id="Bhrenttitlepage"
   initial={{ opacity: 0, y: 50 }}
   whileInView={{ opacity: 1, y: 0 }}
@@ -238,6 +221,7 @@ function App() {
 >
   Save The Date
 </motion.h1>
+
 
 </section>
 
@@ -253,7 +237,7 @@ function App() {
 >
 
 
-  <div className="absolute w-full md:w-0 md:h-0 top-0 left-1/2 transform -translate-x-1/2">
+  <div className="absolute w-full md:w-0  top-0 left-1/2 transform -translate-x-1/2">
     <img 
       src={papertorn1} 
       alt="Paper Torn" 
@@ -261,10 +245,10 @@ function App() {
     />
   </div>
 
-  <div className="absolute top-44 w-full text-center z-10">
+  <div className="absolute  top-44 w-full text-center z-10">
     <h1 id='debutpicstext' className="text-7xl md:text-6xl font-bold   text-[#c1b56c]">Debut &nbsp; Pics</h1>
   </div>
-  <div className="photosslideshow h-full flex items-center justify-center">
+  <div className="photosslideshow md:my-auto md:w-1/2 md:h-52 h-full flex items-center justify-center">
     <Slider {...settings} className="w-full">
       {images.map((image, index) => (
         <div key={index} className="img-container">
@@ -275,7 +259,7 @@ function App() {
   </div>
 
  
-  <div className="absolute md:w-0 md:h-0 bottom-0 w-full left-1/2 transform -translate-x-1/2 ">
+  <div className="absolute md:w-0 bottom-0 w-full left-1/2 transform -translate-x-1/2 ">
     <img 
       src={papertorn2} 
       alt="Paper Torn" 
