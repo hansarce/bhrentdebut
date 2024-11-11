@@ -6,10 +6,12 @@ import papertorn1 from './img/borderpapertrn.png';
 import papertorn2 from './img/borderpapertrn2.png';
 import firstPic from './img/firstpic.jpg';
 import bgbrown from './img/bgbrown.png';
-import citylights from './img/citylights.jpg';
+
+import roses from './img/roses.png'
 import videoSource from './video/18thvideo.mp4';
 import pattern from './img/pattern.jpg'
 import Slider from 'react-slick';
+
 import img1 from './slideshow/1.jpg';
 import img2 from './slideshow/2.jpg';
 import img3 from './slideshow/3.jpg';
@@ -131,7 +133,7 @@ function App() {
             
                 <li class="pt-4 text-center"><span class="font-bold">Dress Code:</span> Semi-formal/ Cocktail Attire</li>
                <li className='text-center'><span className="font-bold ">Where:</span> Stalla Suites Events Place</li>
-               <li className='text-center'><span className="font-bold">Time:</span> 5:00 pm onwards</li>
+               <li className='text-center'><span className="font-bold">Time:</span> December 10, 2024 5:00 PM</li>
               </motion.ul>
               <motion.table id='countdown' className='text-white'
                 variants={fadein("up", 0.2)}
@@ -342,6 +344,35 @@ function App() {
     </motion.div>
   </motion.div>
 </section>
+
+<div
+  className="events w-screen  md:h-screen md:w-screen flex items-center justify-center"
+  id="roses"
+>
+  <img
+    src={firstPic} 
+    alt="Your Description" 
+    className="w-full h-full object-contain md:object-cover" // Styles to control image scaling
+  />
+  
+</div>
+
+<div
+  className="events w-screen   md:w-screen flex items-center justify-center"
+  id="roses"
+>
+  <img
+    src={roses} 
+    alt="Your Description" 
+    id='firstpic'
+    className="w-full h-full object-contain md:object-cover" // Styles to control image scaling
+  />
+  
+</div>
+
+
+
+
 
 
       </div>
