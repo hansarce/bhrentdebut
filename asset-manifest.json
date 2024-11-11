@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/bhrentdebut/static/css/main.29b159f3.css",
-    "main.js": "/bhrentdebut/static/js/main.6644c309.js",
+    "main.css": "/bhrentdebut/static/css/main.8d814232.css",
+    "main.js": "/bhrentdebut/static/js/main.991480ac.js",
     "static/js/453.ce94cdb8.chunk.js": "/bhrentdebut/static/js/453.ce94cdb8.chunk.js",
     "static/media/18thvideo.mp4": "/bhrentdebut/static/media/18thvideo.321a2f7ae441947b8f34.mp4",
-    "static/media/citylights.jpg": "/bhrentdebut/static/media/citylights.d2e814645ba61507e73c.jpg",
     "static/media/1.jpg": "/bhrentdebut/static/media/1.d30bb54cee8ebbd07147.jpg",
     "static/media/6.jpg": "/bhrentdebut/static/media/6.3c804a7f3d84bc7e4e75.jpg",
     "static/media/12.jpg": "/bhrentdebut/static/media/12.56682ef940e11eba5ff6.jpg",
@@ -23,6 +22,7 @@
     "static/media/11.jpg": "/bhrentdebut/static/media/11.4d1f1ca9a97cddaefe2b.jpg",
     "static/media/3.jpg": "/bhrentdebut/static/media/3.a78d19d504a8ddd21038.jpg",
     "static/media/bgbrown.png": "/bhrentdebut/static/media/bgbrown.3ff219f6ddb26e382224.png",
+    "static/media/roses.png": "/bhrentdebut/static/media/roses.b630d4035e70e92a712b.png",
     "static/media/borderpapertrn2.png": "/bhrentdebut/static/media/borderpapertrn2.0be5a003819e9c600477.png",
     "static/media/borderpapertrn.png": "/bhrentdebut/static/media/borderpapertrn.bdf0a3c1185970318df7.png",
     "static/media/pattern.jpg": "/bhrentdebut/static/media/pattern.2252feced9ce2f0b70fb.jpg",
@@ -33,12 +33,12 @@
     "static/media/slick.ttf": "/bhrentdebut/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/bhrentdebut/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bhrentdebut/index.html",
-    "main.29b159f3.css.map": "/bhrentdebut/static/css/main.29b159f3.css.map",
-    "main.6644c309.js.map": "/bhrentdebut/static/js/main.6644c309.js.map",
+    "main.8d814232.css.map": "/bhrentdebut/static/css/main.8d814232.css.map",
+    "main.991480ac.js.map": "/bhrentdebut/static/js/main.991480ac.js.map",
     "453.ce94cdb8.chunk.js.map": "/bhrentdebut/static/js/453.ce94cdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29b159f3.css",
-    "static/js/main.6644c309.js"
+    "static/css/main.8d814232.css",
+    "static/js/main.991480ac.js"
   ]
 }
