@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bhrentdebut/static/css/main.a693e20c.css",
-    "main.js": "/bhrentdebut/static/js/main.ffdf6a2c.js",
+    "main.css": "/bhrentdebut/static/css/main.172c43f8.css",
+    "main.js": "/bhrentdebut/static/js/main.a4b8b91c.js",
     "static/js/453.ce94cdb8.chunk.js": "/bhrentdebut/static/js/453.ce94cdb8.chunk.js",
     "static/media/1.jpg": "/bhrentdebut/static/media/1.d30bb54cee8ebbd07147.jpg",
     "static/media/6.jpg": "/bhrentdebut/static/media/6.3c804a7f3d84bc7e4e75.jpg",
@@ -26,6 +26,7 @@
     "static/media/borderpapertrn.png": "/bhrentdebut/static/media/borderpapertrn.bdf0a3c1185970318df7.png",
     "static/media/pattern.jpg": "/bhrentdebut/static/media/pattern.2252feced9ce2f0b70fb.jpg",
     "static/media/iconheader.png": "/bhrentdebut/static/media/iconheader.8eb994ac581209d0eb9a.png",
+    "static/media/adelia.ttf": "/bhrentdebut/static/media/adelia.3433c79c131d0305c3a9.ttf",
     "static/media/linestroke2.png": "/bhrentdebut/static/media/linestroke2.3f30cdbc46113c1206ac.png",
     "static/media/linestroke1.png": "/bhrentdebut/static/media/linestroke1.6572fd88d9280888b50b.png",
     "static/media/slick.svg": "/bhrentdebut/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -33,12 +34,12 @@
     "static/media/slick.ttf": "/bhrentdebut/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/bhrentdebut/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bhrentdebut/index.html",
-    "main.a693e20c.css.map": "/bhrentdebut/static/css/main.a693e20c.css.map",
-    "main.ffdf6a2c.js.map": "/bhrentdebut/static/js/main.ffdf6a2c.js.map",
+    "main.172c43f8.css.map": "/bhrentdebut/static/css/main.172c43f8.css.map",
+    "main.a4b8b91c.js.map": "/bhrentdebut/static/js/main.a4b8b91c.js.map",
     "453.ce94cdb8.chunk.js.map": "/bhrentdebut/static/js/453.ce94cdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a693e20c.css",
-    "static/js/main.ffdf6a2c.js"
+    "static/css/main.172c43f8.css",
+    "static/js/main.a4b8b91c.js"
   ]
 }
